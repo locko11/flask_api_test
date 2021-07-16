@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container overflow-hidden">
+    <div class="row gy-5">
+        <div class="col-6">
+            <div class="p-3">TEST Flask API</div>
+        </div>
+        <div class="row gy-5">
+            <div class="col-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <form action="" method="post" novalidate>
+                                {{ form.hidden_tag() }}
+                                <div class="input-group">
+                                    <span class="input-group-text">Amount</span>
+                                    {{ form.amount(size=9, type="number", class="form-control") }}
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-text">Payway</span>
+                                    {{ form.payway(class="form-select") }}
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-text">With textarea</span>
+                                    {{ form.description(class="form-control") }}
+                                </div>
+                                <div class="col-12">
+                                    {{ form.submit(class="btn btn-primary") }}
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

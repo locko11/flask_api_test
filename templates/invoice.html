@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container overflow-hidden">
+    <div class="row gy-5">
+        <div class="col-6">
+            <div class="p-3"><a href = {{ url_for('main_page')}}>Go back</a></div>
+        </div>
+        <div class="row gy-5">
+            <div class="col-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <form method={{method}} action={{url}}>
+                                {% for name, value in data.items() %}
+                                <div class="input-group">
+                                    <span class="input-group-text">{{name}}</span>
+                                    <input name={{name}} value={{value}} class="form-control">
+                                </div>
+                                {% endfor %}
+                                <div class="col-12">
+                                    <input class="btn btn-primary" name="Pay" type="submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
