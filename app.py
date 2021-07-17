@@ -87,3 +87,5 @@ def main_page():
     return render_template('main_form.html', form=form)
 
 
+if __name__ == '__main__':
+    app.run()

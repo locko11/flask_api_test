@@ -25,3 +25,4 @@
 [2021-07-16 16:10:13,022 INFO] requested:flask_api_prj: Amount = 214.00, Payway = RUB, Description = dgsgsdv
 [2021-07-16 16:10:29,861 INFO] requested:flask_api_prj: Amount = 234.00, Payway = EUR, Description = dsfv
 [2021-07-16 17:08:35,671 INFO] requested:main: Amount = 150.00, Payway = USD, Description = asdf
+[2021-07-17 09:54:08,845 INFO] requested:main: Amount = 23.00, Payway = EUR, Description = asdas
