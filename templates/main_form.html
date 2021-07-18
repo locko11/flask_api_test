@@ -18,15 +18,15 @@
                                     {{ form.amount(size=9, type="number", class="form-control", step=".01", min="0", max="999999", pattern="^\d+(?:\.\d{1,2})?$") }}
                                 </div>
                                 {% for error in form.errors.amount %}
-                                        <span style="color: red;">[{{error}}]</span>
-                                    {% endfor %}
+                                        <span style="color: red;" class="add-pad">[{{error}}]</span>
+                                {% endfor %}
 
                                 <div class="input-group add-pad">
                                     <span class="input-group-text">Payway</span>
                                     {{ form.payway(class="form-select") }}
                                 </div>
                                 {% for error in form.errors.payway %}
-                                        <span style="color: red;">[{{error}}]</span>
+                                        <span style="color: red;" class="add-pad">[{{error}}]</span>
                                     {% endfor %}
                                 <div class="input-group add-pad">
                                     <span class="input-group-text">Description</span>
