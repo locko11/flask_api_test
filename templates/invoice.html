@@ -13,12 +13,12 @@
                         <div class="col">
                             <form method={{method}} action={{url}}>
                                 {% for name, value in data.items() %}
-                                <div class="input-group">
+                                <div class="input-group add-pad">
                                     <span class="input-group-text">{{name}}</span>
                                     <input name={{name}} value={{value}} class="form-control">
                                 </div>
                                 {% endfor %}
-                                <div class="col-12">
+                                <div class="col-12 add-pad">
                                     <input class="btn btn-primary" name="Pay" type="submit">
                                 </div>
                             </form>

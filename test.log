@@ -26,3 +26,11 @@
 [2021-07-16 16:10:29,861 INFO] requested:flask_api_prj: Amount = 234.00, Payway = EUR, Description = dsfv
 [2021-07-16 17:08:35,671 INFO] requested:main: Amount = 150.00, Payway = USD, Description = asdf
 [2021-07-17 09:54:08,845 INFO] requested:main: Amount = 23.00, Payway = EUR, Description = asdas
+[2021-07-18 11:42:23,024 INFO] requested:app: Amount = 1224.22, Payway = USD, Description = 
+[2021-07-18 11:45:15,517 INFO] requested:app: Amount = 21343214.35, Payway = USD, Description = 
+[2021-07-18 11:45:21,511 INFO] requested:app: Amount = 21343214.34, Payway = USD, Description = 
+[2021-07-18 11:45:27,845 INFO] requested:app: Amount = 23214.34, Payway = USD, Description = bdcfb
+[2021-07-18 12:12:04,731 INFO] requested:app: Amount = 99999999999999999.00, Payway = USD, Description = 
+[2021-07-18 12:15:18,809 INFO] requested:app: Amount = 2352352523.00, Payway = USD, Description = 
+[2021-07-18 12:19:07,002 INFO] requested:app: Amount = 99999.99, Payway = USD, Description = 
+[2021-07-18 12:29:06,716 INFO] requested:app: Amount = 57575.00, Payway = RUB, Description = 
